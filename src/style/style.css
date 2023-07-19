@@ -35,6 +35,13 @@ img {
   height: auto;
 }
 /* end of reset */
+.wrapper {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 62px;
+}
+
 .nav-bar {
   top: 0;
   right: 0;
@@ -65,8 +72,10 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: 600px;
-  justify-content: space-around;
   text-align: center;
+  border: 1px solid black;
+  justify-content: center;
+  gap: 50px;
 }
 .posts {
   display: flex;
@@ -74,6 +83,7 @@ button:hover {
   height: 700px;
   text-align: center;
   justify-content: space-around;
+  border: 1px solid black;
 }
 
 .comment {
